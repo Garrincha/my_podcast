@@ -1,0 +1,10 @@
+server:
+  port: 8081
+endpoints:
+  shutdown:
+    enabled: true
+spring:
+  thymeleaf:
+    cache: false
+  messages:
+    basename: messages_en, messages_fr
